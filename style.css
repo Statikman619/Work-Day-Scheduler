@@ -23,12 +23,13 @@ textarea {
 
 .description {
   white-space: pre-wrap;
+  height: 100%;
 }
 
 .time-block {
   text-align: center;
   border-radius: 15px;
-  width: 75%;g
+  width: 75%;
 }
 
 .row {
@@ -66,6 +67,9 @@ textarea {
 }
 
 .saveBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
